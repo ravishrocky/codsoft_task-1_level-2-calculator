@@ -1,0 +1,58 @@
+/*********icontainer styleing********/
+.container{
+ border: 2px solid #3a4452;
+ background-color: #3a4452;
+ width: 350px;
+ height: 590px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border-radius: 8px;
+ margin-top: 50px;
+}
+h1{
+ font-size: 35px;
+ font-weight: bold;
+}
+
+
+/*********display styleing********/
+#calc{
+width: 320px;
+border: 2px solid #3a4452;
+margin-bottom: 5px;
+text-align:center;
+}
+
+/*********input styleing********/
+input{
+border: 0;
+outline: 0;
+width: 60px;
+height: 60px;
+border-radius: 10px;
+box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+background:transparent;
+font-size: 20px;
+color: #fff;
+cursor: pointer;
+margin: 10px;
+}
+
+/*********symbol styleing********/
+#symbol{
+ color: #ff045f;
+ padding: auto;
+}
+
+/*********Clear button styleing********/
+#clear{
+ text-align: center;
+ width: 300px;
+ font-weight: bold;
+}
+
+#clear:hover{
+ background-color:#ff045f;
+ color: #3a4452;
+}
